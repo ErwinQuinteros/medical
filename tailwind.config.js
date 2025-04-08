@@ -1,15 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
-        primary: '#14457B',      // azul principal
-        lightBlue: '#2490EB',    // azul claro
-        textGray: '#666666',     // gris para texto
-        background: '#F9FAFB',   // fondo general
+        primary: '#14457B',
+        lightBlue: '#2490EB',
+        textGray: '#666666',
+        background: '#F9FAFB',
       },
     },
   },
   plugins: [],
-}
+};

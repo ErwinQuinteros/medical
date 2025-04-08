@@ -1,24 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 body {
   margin: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@layer components {
-  .btn {
-    @apply px-4 py-2 font-semibold transition rounded shadow-md;
-  }
-
-  .btn-primary {
-    @apply text-white bg-primary hover:bg-secondary;
-  }
-
-  .btn-outline {
-    @apply border border-primary text-primary hover:bg-primary hover:text-white;
-  }
 }
