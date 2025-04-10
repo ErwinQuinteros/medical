@@ -31,6 +31,32 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="flex items-center justify-center w-full px-4 py-10 mx-auto text-center">
+          <div className="bg-[#14457B] max-w-[1224px] w-full text-white rounded-3xl px-6 py-10 flex flex-col md:flex-row justify-between items-center gap-10 md:gap-6">
+            <div className="text-center transition-transform duration-300 hover:scale-105">
+              <div className="text-3xl font-light lg:text-5xl md:text-4xl">+30</div>
+              <div className="mt-1 text-lg tracking-widest">ESPECIALISTAS</div>
+            </div>
+
+            <div className="text-center transition-transform duration-300 hover:scale-105">
+              <div className="text-3xl font-light lg:text-5xl md:text-4xl">+7000</div>
+              <div className="mt-1 text-lg tracking-widest">EXÁMENES REALIZADOS</div>
+            </div>
+
+            <div className="text-center transition-transform duration-300 hover:scale-105">
+              <div className="text-3xl font-light lg:text-5xl md:text-4xl">+12 MIL</div>
+              <div className="mt-1 text-lg tracking-widest">PACIENTES ATENDIDOS</div>
+            </div>
+
+            <div className="flex items-center gap-3 text-left transition-opacity cursor-pointer hover:opacity-90">
+              <div className="w-1 h-10 bg-blue-500 rounded-sm" />
+              <div className="text-lg leading-tight tracking-widest">
+                <div>CONOZCA NUESTRO</div>
+                <div>CUERPO CLÍNICO</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </>
